@@ -1,31 +1,30 @@
 # Wpf Color/Font Dialog
+# Cuadro de Dialogo de Fuente y Color en Net5
 
-A wpf color and font picker based on [a project by Alessio Saltarin](http://www.codeproject.com/Articles/368070/A-WPF-Font-Picker-with-Color).
+Aviable en (en curso) [NuGet](http://www.nuget.org/.../)
 
-Available on [NuGet](http://www.nuget.org/packages/WpfColorFontDialog/)
-
-usage:
+Uso:
           
-            //We can pass a bool to choose if we preview the font directly in the list of fonts.
-            Bool previewFontInFontList = true;
-            //True to allow user to input arbitrary font sizes. False to only allow predtermined sizes
-            Bool allowArbitraryFontSizes = true; 
-            
-            
-            ColorFontDialog dialog = new ColorFontDialog(previewFontInFontList,allowArbitraryFontSizes);
-            dialog.Font = FontInfo.GetControlFont(MyTextBox);
-            
-            //Optional custom allowed size range
-            dialog.FontSizes = new int[] { 10, 12, 14, 16, 18, 20, 22 };
-            
-            if (dialog.ShowDialog() == true)
+
+            ColorFontChooser colorFontChooser = new()
             {
-                FontInfo font = dialog.Font;
-                if (font != null)
+                FamiliaSelecionada =
                 {
-                    FontInfo.ApplyFont(MyTextBox, font);
+                    Name = TextBlockSample.FontFamily.ToString(),
+                    Size = TextBlockSample.FontSize,
+                    Color2 = TextBlockSample.Foreground,
+                    Style =  TextBlockSample.FontStyle
                 }
+            };
+            colorFontChooser.ShowDialog();
+            if (colorFontChooser.OK)
+            {
+                TextBlockSample.FontFamily =  new System.Windows.Media.FontFamily(colorFontChooser.FamiliaSelecionada.Name);
+                TextBlockSample.FontSize = colorFontChooser.FamiliaSelecionada.Size;
+                TextBlockSample.Foreground = colorFontChooser.FamiliaSelecionada.Color2;
+               // TextBlockSample.FontStyle = colorFontChooser.Style;
             }
+
  
-![Example](http://i.imgur.com/9RtLqsN.png)
+![Ejemplo](https://imgur.com/a/4wS0Swe)
 

@@ -192,7 +192,7 @@ namespace WpfColorFont.Logic.Vistas
                 }
                 if (FontStylesO.Any(x => x.Tipo.ToString() == FamiliaSelecionada.Style.ToString()) )
                 {
-                    SelectFontStyle = FontStylesO.First(x =>  x.Tipo.ToString() == FamiliaSelecionada.ToString());
+                    SelectFontStyle = FontStylesO.First(x =>  x.Tipo.ToString() == FamiliaSelecionada.Style.ToString());
                 }
             }
         }
