@@ -1,4 +1,3 @@
-# Wpf Color/Font Dialog
 # Cuadro de Dialogo de Fuente y Color en Net5
 
 Aviable en (en curso) [NuGet](http://www.nuget.org/.../)

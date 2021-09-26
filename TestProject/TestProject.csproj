@@ -5,6 +5,7 @@
     <UseWPF>true</UseWPF>
     <LangVersion>latest</LangVersion>
     <AssemblyName>TestProject</AssemblyName>
+	<OutputPath>..\Compilado\</OutputPath>
     <RootNamespace>TestProject</RootNamespace>
   </PropertyGroup>
   <ItemGroup>

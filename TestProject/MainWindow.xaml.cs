@@ -21,7 +21,7 @@ namespace TestProject
                 {
                     Name = TextBlockSample.FontFamily.ToString(),
                     Size = TextBlockSample.FontSize,
-                    Color2 = TextBlockSample.Foreground,
+                    Color = TextBlockSample.Foreground,
                     Style =  TextBlockSample.FontStyle
                 }
             };
@@ -30,7 +30,7 @@ namespace TestProject
             {
                 TextBlockSample.FontFamily =  new System.Windows.Media.FontFamily(colorFontChooser.FamiliaSelecionada.Name);
                 TextBlockSample.FontSize = colorFontChooser.FamiliaSelecionada.Size;
-                TextBlockSample.Foreground = colorFontChooser.FamiliaSelecionada.Color2;
+                TextBlockSample.Foreground = colorFontChooser.FamiliaSelecionada.Color;
                // TextBlockSample.FontStyle = colorFontChooser.Style;
             }
         }

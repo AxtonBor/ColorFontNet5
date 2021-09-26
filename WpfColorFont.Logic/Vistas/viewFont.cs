@@ -172,7 +172,7 @@ namespace WpfColorFont.Logic.Vistas
             OK = true;
             FamiliaSelecionada.Name = SelectFontName.FontName;
             FamiliaSelecionada.Size = SelectFontsize.Size;
-            FamiliaSelecionada.Color2 = new ConvertColor().Convert(SelectColor.CodigoColor);
+            FamiliaSelecionada.Color = new ConvertColor().Convert(SelectColor.CodigoColor);
             FamiliaSelecionada.Style = mostrarTipoEnTexbox();
             CloseAction(); 
         }
@@ -186,9 +186,9 @@ namespace WpfColorFont.Logic.Vistas
                     SelectFontName = FontNames.First(x => x.FontName == FamiliaSelecionada.Name);
                 }
                 SizeFont = FamiliaSelecionada.Size;
-                if (Colors.Any(x => x.CodigoColor == FamiliaSelecionada.Color2.ToString()))
+                if (Colors.Any(x => x.CodigoColor == FamiliaSelecionada.Color.ToString()))
                 {
-                    SelectColor = Colors.First(x => x.CodigoColor == FamiliaSelecionada.Color2.ToString());
+                    SelectColor = Colors.First(x => x.CodigoColor == FamiliaSelecionada.Color.ToString());
                 }
                 if (FontStylesO.Any(x => x.Tipo.ToString() == FamiliaSelecionada.Style.ToString()) )
                 {

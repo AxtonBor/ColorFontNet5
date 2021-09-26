@@ -7,7 +7,7 @@ namespace WpfColorFont.Logic.Modelos
     {
         public string Name { get; set; }
         public double Size { get; set; }
-        public Brush Color2 { get; set; } = Brushes.Black;
+        public Brush Color { get; set; } = Brushes.Black;
         public FontStyle Style { get; set; } = FontStyles.Normal;
     }
 }
