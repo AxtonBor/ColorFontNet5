@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FontFamily" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="StyleWeight" xml:space="preserve">
+    <value>字形</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="SampleText" xml:space="preserve">
+    <value>示例</value>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>选择字体</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="IdColorAliceBlue" xml:space="preserve">
+    <value>AliceBlue;#FFF0F8FF</value>
+  </data>
+  <data name="IdColorAntiqueWhite" xml:space="preserve">
+    <value>AntiqueWhite;#FFFAEBD7</value>
+  </data>
+  <data name="IdColorAqua" xml:space="preserve">
+    <value>Aqua;#FF00FFFF</value>
+  </data>
+  <data name="IdColorAquamarine" xml:space="preserve">
+    <value>Aquamarine;#FF7FFFD4</value>
+  </data>
+  <data name="IdColorAzure" xml:space="preserve">
+    <value>Azure;#FFF0FFFF</value>
+  </data>
+  <data name="IdColorBeige" xml:space="preserve">
+    <value>Beige;#FFF5F5DC</value>
+  </data>
+  <data name="IdColorBisque" xml:space="preserve">
+    <value>Bisque;#FFFFE4C4</value>
+  </data>
+  <data name="IdColorBlack" xml:space="preserve">
+    <value>Black;#FF000000</value>
+  </data>
+  <data name="IdColorBlanchedAlmond" xml:space="preserve">
+    <value>BlanchedAlmond;#FFFFEBCD</value>
+  </data>
+  <data name="IdColorBlue" xml:space="preserve">
+    <value>Blue;#FF0000FF</value>
+  </data>
+  <data name="IdColorBlueViolet" xml:space="preserve">
+    <value>BlueViolet;#FF8A2BE2</value>
+  </data>
+  <data name="IdColorBrown" xml:space="preserve">
+    <value>Brown;#FFA52A2A</value>
+  </data>
+  <data name="IdColorBurlyWood" xml:space="preserve">
+    <value>BurlyWood;#FFDEB887</value>
+  </data>
+  <data name="IdColorCadetBlue" xml:space="preserve">
+    <value>CadetBlue;#FF5F9EA0</value>
+  </data>
+  <data name="IdColorChartreuse" xml:space="preserve">
+    <value>Chartreuse;#FF7FFF00</value>
+  </data>
+  <data name="IdColorChocolate" xml:space="preserve">
+    <value>Chocolate;#FFD2691E</value>
+  </data>
+  <data name="IdColorCoral" xml:space="preserve">
+    <value>Coral;#FFFF7F50</value>
+  </data>
+  <data name="IdColorCornflowerBlue" xml:space="preserve">
+    <value>CornflowerBlue;#FF6495ED</value>
+  </data>
+  <data name="IdColorCornsilk" xml:space="preserve">
+    <value>Cornsilk;#FFFFF8DC</value>
+  </data>
+  <data name="IdColorCrimson" xml:space="preserve">
+    <value>Crimson;#FFDC143C</value>
+  </data>
+  <data name="IdColorCyan" xml:space="preserve">
+    <value>Cyan;#FF00FFFF</value>
+  </data>
+  <data name="IdColorDarkBlue" xml:space="preserve">
+    <value>DarkBlue;#FF00008B</value>
+  </data>
+  <data name="IdColorDarkCyan" xml:space="preserve">
+    <value>DarkCyan;#FF008B8B</value>
+  </data>
+  <data name="IdColorDarkGoldenrod" xml:space="preserve">
+    <value>DarkGoldenrod;#FFB8860B</value>
+  </data>
+  <data name="IdColorDarkGray" xml:space="preserve">
+    <value>DarkGray;#FFA9A9A9</value>
+  </data>
+  <data name="IdColorDarkGreen" xml:space="preserve">
+    <value>DarkGreen;#FF006400</value>
+  </data>
+  <data name="IdColorDarkKhaki" xml:space="preserve">
+    <value>DarkKhaki;#FFBDB76B</value>
+  </data>
+  <data name="IdColorDarkMagenta" xml:space="preserve">
+    <value>DarkMagenta;#FF8B008B</value>
+  </data>
+  <data name="IdColorDarkOliveGreen" xml:space="preserve">
+    <value>DarkOliveGreen;#FF556B2F</value>
+  </data>
+  <data name="IdColorDarkOrange" xml:space="preserve">
+    <value>DarkOrange;#FFFF8C00</value>
+  </data>
+  <data name="IdColorDarkOrchid" xml:space="preserve">
+    <value>DarkOrchid;#FF9932CC</value>
+  </data>
+  <data name="IdColorDarkRed" xml:space="preserve">
+    <value>DarkRed;#FF8B0000</value>
+  </data>
+  <data name="IdColorDarkSalmon" xml:space="preserve">
+    <value>DarkSalmon;#FFE9967A</value>
+  </data>
+  <data name="IdColorDarkSeaGreen" xml:space="preserve">
+    <value>DarkSeaGreen;#FF8FBC8B</value>
+  </data>
+  <data name="IdColorDarkSlateBlue" xml:space="preserve">
+    <value>DarkSlateBlue;#FF483D8B</value>
+  </data>
+  <data name="IdColorDarkSlateGray" xml:space="preserve">
+    <value>DarkSlateGray;#FF2F4F4F</value>
+  </data>
+  <data name="IdColorDarkTurquoise" xml:space="preserve">
+    <value>DarkTurquoise;#FF00CED1</value>
+  </data>
+  <data name="IdColorDarkViolet" xml:space="preserve">
+    <value>DarkViolet;#FF9400D3</value>
+  </data>
+  <data name="IdColorDeepPink" xml:space="preserve">
+    <value>DeepPink;#FFFF1493</value>
+  </data>
+  <data name="IdColorDeepSkyBlue" xml:space="preserve">
+    <value>DeepSkyBlue;#FF00BFFF</value>
+  </data>
+  <data name="IdColorDimGray" xml:space="preserve">
+    <value>DimGray;#FF696969</value>
+  </data>
+  <data name="IdColorDodgerBlue" xml:space="preserve">
+    <value>DodgerBlue;#FF1E90FF</value>
+  </data>
+  <data name="IdColorFirebrick" xml:space="preserve">
+    <value>Firebrick;#FFB22222</value>
+  </data>
+  <data name="IdColorFloralWhite" xml:space="preserve">
+    <value>FloralWhite;#FFFFFAF0</value>
+  </data>
+  <data name="IdColorForestGreen" xml:space="preserve">
+    <value>ForestGreen;#FF228B22</value>
+  </data>
+  <data name="IdColorFuchsia" xml:space="preserve">
+    <value>Fuchsia;#FFFF00FF</value>
+  </data>
+  <data name="IdColorGainsboro" xml:space="preserve">
+    <value>Gainsboro;#FFDCDCDC</value>
+  </data>
+  <data name="IdColorGhostWhite" xml:space="preserve">
+    <value>GhostWhite;#FFF8F8FF</value>
+  </data>
+  <data name="IdColorGold" xml:space="preserve">
+    <value>Gold;#FFFFD700</value>
+  </data>
+  <data name="IdColorGoldenrod" xml:space="preserve">
+    <value>Goldenrod;#FFDAA520</value>
+  </data>
+  <data name="IdColorGray" xml:space="preserve">
+    <value>Gray;#FF808080</value>
+  </data>
+  <data name="IdColorGreen" xml:space="preserve">
+    <value>Green;#FF008000</value>
+  </data>
+  <data name="IdColorGreenYellow" xml:space="preserve">
+    <value>GreenYellow;#FFADFF2F</value>
+  </data>
+  <data name="IdColorHoneydew" xml:space="preserve">
+    <value>Honeydew;#FFF0FFF0</value>
+  </data>
+  <data name="IdColorHotPink" xml:space="preserve">
+    <value>HotPink;#FFFF69B4</value>
+  </data>
+  <data name="IdColorIndianRed" xml:space="preserve">
+    <value>IndianRed;#FFCD5C5C</value>
+  </data>
+  <data name="IdColorIndigo" xml:space="preserve">
+    <value>Indigo;#FF4B0082</value>
+  </data>
+  <data name="IdColorIvory" xml:space="preserve">
+    <value>Ivory;#FFFFFFF0</value>
+  </data>
+  <data name="IdColorKhaki" xml:space="preserve">
+    <value>Khaki;#FFF0E68C</value>
+  </data>
+  <data name="IdColorLavender" xml:space="preserve">
+    <value>Lavender;#FFE6E6FA</value>
+  </data>
+  <data name="IdColorLavenderBlush" xml:space="preserve">
+    <value>LavenderBlush;#FFFFF0F5</value>
+  </data>
+  <data name="IdColorLawnGreen" xml:space="preserve">
+    <value>LawnGreen;#FF7CFC00</value>
+  </data>
+  <data name="IdColorLemonChiffon" xml:space="preserve">
+    <value>LemonChiffon;#FFFFFACD</value>
+  </data>
+  <data name="IdColorLightBlue" xml:space="preserve">
+    <value>LightBlue;#FFADD8E6</value>
+  </data>
+  <data name="IdColorLightCoral" xml:space="preserve">
+    <value>LightCoral;#FFF08080</value>
+  </data>
+  <data name="IdColorLightCyan" xml:space="preserve">
+    <value>LightCyan;#FFE0FFFF</value>
+  </data>
+  <data name="IdColorLightGoldenrodYellow" xml:space="preserve">
+    <value>LightGoldenrodYellow;#FFFAFAD2</value>
+  </data>
+  <data name="IdColorLightGray" xml:space="preserve">
+    <value>LightGray;#FFD3D3D3</value>
+  </data>
+  <data name="IdColorLightGreen" xml:space="preserve">
+    <value>LightGreen;#FF90EE90</value>
+  </data>
+  <data name="IdColorLightPink" xml:space="preserve">
+    <value>LightPink;#FFFFB6C1</value>
+  </data>
+  <data name="IdColorLightSalmon" xml:space="preserve">
+    <value>LightSalmon;#FFFFA07A</value>
+  </data>
+  <data name="IdColorLightSeaGreen" xml:space="preserve">
+    <value>LightSeaGreen;#FF20B2AA</value>
+  </data>
+  <data name="IdColorLightSkyBlue" xml:space="preserve">
+    <value>LightSkyBlue;#FF87CEFA</value>
+  </data>
+  <data name="IdColorLightSlateGray" xml:space="preserve">
+    <value>LightSlateGray;#FF778899</value>
+  </data>
+  <data name="IdColorLightSteelBlue" xml:space="preserve">
+    <value>LightSteelBlue;#FFB0C4DE</value>
+  </data>
+  <data name="IdColorLightYellow" xml:space="preserve">
+    <value>LightYellow;#FFFFFFE0</value>
+  </data>
+  <data name="IdColorLime" xml:space="preserve">
+    <value>Lime;#FF00FF00</value>
+  </data>
+  <data name="IdColorLimeGreen" xml:space="preserve">
+    <value>LimeGreen;#FF32CD32</value>
+  </data>
+  <data name="IdColorLinen" xml:space="preserve">
+    <value>Linen;#FFFAF0E6</value>
+  </data>
+  <data name="IdColorMagenta" xml:space="preserve">
+    <value>Magenta;#FFFF00FF</value>
+  </data>
+  <data name="IdColorMaroon" xml:space="preserve">
+    <value>Maroon;#FF800000</value>
+  </data>
+  <data name="IdColorMediumAquamarine" xml:space="preserve">
+    <value>MediumAquamarine;#FF66CDAA</value>
+  </data>
+  <data name="IdColorMediumBlue" xml:space="preserve">
+    <value>MediumBlue;#FF0000CD</value>
+  </data>
+  <data name="IdColorMediumOrchid" xml:space="preserve">
+    <value>MediumOrchid;#FFBA55D3</value>
+  </data>
+  <data name="IdColorMediumPurple" xml:space="preserve">
+    <value>MediumPurple;#FF9370DB</value>
+  </data>
+  <data name="IdColorMediumSeaGreen" xml:space="preserve">
+    <value>MediumSeaGreen;#FF3CB371</value>
+  </data>
+  <data name="IdColorMediumSlateBlue" xml:space="preserve">
+    <value>MediumSlateBlue;#FF7B68EE</value>
+  </data>
+  <data name="IdColorMediumSpringGreen" xml:space="preserve">
+    <value>MediumSpringGreen;#FF00FA9A</value>
+  </data>
+  <data name="IdColorMediumTurquoise" xml:space="preserve">
+    <value>MediumTurquoise;#FF48D1CC</value>
+  </data>
+  <data name="IdColorMediumVioletRed" xml:space="preserve">
+    <value>MediumVioletRed;#FFC71585</value>
+  </data>
+  <data name="IdColorMidnightBlue" xml:space="preserve">
+    <value>MidnightBlue;#FF191970</value>
+  </data>
+  <data name="IdColorMintCream" xml:space="preserve">
+    <value>MintCream;#FFF5FFFA</value>
+  </data>
+  <data name="IdColorMistyRose" xml:space="preserve">
+    <value>MistyRose;#FFFFE4E1</value>
+  </data>
+  <data name="IdColorMoccasin" xml:space="preserve">
+    <value>Moccasin;#FFFFE4B5</value>
+  </data>
+  <data name="IdColorNavajoWhite" xml:space="preserve">
+    <value>NavajoWhite;#FFFFDEAD</value>
+  </data>
+  <data name="IdColorNavy" xml:space="preserve">
+    <value>Navy;#FF000080</value>
+  </data>
+  <data name="IdColorOldLace" xml:space="preserve">
+    <value>OldLace;#FFFDF5E6</value>
+  </data>
+  <data name="IdColorOlive" xml:space="preserve">
+    <value>Olive;#FF808000</value>
+  </data>
+  <data name="IdColorOliveDrab" xml:space="preserve">
+    <value>OliveDrab;#FF6B8E23</value>
+  </data>
+  <data name="IdColorOrange" xml:space="preserve">
+    <value>Orange;#FFFFA500</value>
+  </data>
+  <data name="IdColorOrangeRed" xml:space="preserve">
+    <value>OrangeRed;#FFFF4500</value>
+  </data>
+  <data name="IdColorOrchid" xml:space="preserve">
+    <value>Orchid;#FFDA70D6</value>
+  </data>
+  <data name="IdColorPaleGoldenrod" xml:space="preserve">
+    <value>PaleGoldenrod;#FFEEE8AA</value>
+  </data>
+  <data name="IdColorPaleGreen" xml:space="preserve">
+    <value>PaleGreen;#FF98FB98</value>
+  </data>
+  <data name="IdColorPaleTurquoise" xml:space="preserve">
+    <value>PaleTurquoise;#FFAFEEEE</value>
+  </data>
+  <data name="IdColorPaleVioletRed" xml:space="preserve">
+    <value>PaleVioletRed;#FFDB7093</value>
+  </data>
+  <data name="IdColorPapayaWhip" xml:space="preserve">
+    <value>PapayaWhip;#FFFFEFD5</value>
+  </data>
+  <data name="IdColorPeachPuff" xml:space="preserve">
+    <value>PeachPuff;#FFFFDAB9</value>
+  </data>
+  <data name="IdColorPeru" xml:space="preserve">
+    <value>Peru;#FFCD853F</value>
+  </data>
+  <data name="IdColorPink" xml:space="preserve">
+    <value>Pink;#FFFFC0CB</value>
+  </data>
+  <data name="IdColorPlum" xml:space="preserve">
+    <value>Plum;#FFDDA0DD</value>
+  </data>
+  <data name="IdColorPowderBlue" xml:space="preserve">
+    <value>PowderBlue;#FFB0E0E6</value>
+  </data>
+  <data name="IdColorPurple" xml:space="preserve">
+    <value>Purple;#FF800080</value>
+  </data>
+  <data name="IdColorRed" xml:space="preserve">
+    <value>Red;#FFFF0000</value>
+  </data>
+  <data name="IdColorRosyBrown" xml:space="preserve">
+    <value>RosyBrown;#FFBC8F8F</value>
+  </data>
+  <data name="IdColorRoyalBlue" xml:space="preserve">
+    <value>RoyalBlue;#FF4169E1</value>
+  </data>
+  <data name="IdColorSaddleBrown" xml:space="preserve">
+    <value>SaddleBrown;#FF8B4513</value>
+  </data>
+  <data name="IdColorSalmon" xml:space="preserve">
+    <value>Salmon;#FFFA8072</value>
+  </data>
+  <data name="IdColorSandyBrown" xml:space="preserve">
+    <value>SandyBrown;#FFF4A460</value>
+  </data>
+  <data name="IdColorSeaGreen" xml:space="preserve">
+    <value>SeaGreen;#FF2E8B57</value>
+  </data>
+  <data name="IdColorSeaShell" xml:space="preserve">
+    <value>SeaShell;#FFFFF5EE</value>
+  </data>
+  <data name="IdColorSienna" xml:space="preserve">
+    <value>Sienna;#FFA0522D</value>
+  </data>
+  <data name="IdColorSilver" xml:space="preserve">
+    <value>Silver;#FFC0C0C0</value>
+  </data>
+  <data name="IdColorSkyBlue" xml:space="preserve">
+    <value>SkyBlue;#FF87CEEB</value>
+  </data>
+  <data name="IdColorSlateBlue" xml:space="preserve">
+    <value>SlateBlue;#FF6A5ACD</value>
+  </data>
+  <data name="IdColorSlateGray" xml:space="preserve">
+    <value>SlateGray;#FF708090</value>
+  </data>
+  <data name="IdColorSnow" xml:space="preserve">
+    <value>Snow;#FFFFFAFA</value>
+  </data>
+  <data name="IdColorSpringGreen" xml:space="preserve">
+    <value>SpringGreen;#FF00FF7F</value>
+  </data>
+  <data name="IdColorSteelBlue" xml:space="preserve">
+    <value>SteelBlue;#FF4682B4</value>
+  </data>
+  <data name="IdColorTan" xml:space="preserve">
+    <value>Tan;#FFD2B48C</value>
+  </data>
+  <data name="IdColorTeal" xml:space="preserve">
+    <value>Teal;#FF008080</value>
+  </data>
+  <data name="IdColorThistle" xml:space="preserve">
+    <value>Thistle;#FFD8BFD8</value>
+  </data>
+  <data name="IdColorTomato" xml:space="preserve">
+    <value>Tomato;#FFFF6347</value>
+  </data>
+  <data name="IdColorTurquoise" xml:space="preserve">
+    <value>Turquoise;#FF40E0D0</value>
+  </data>
+  <data name="IdColorViolet" xml:space="preserve">
+    <value>Violet;#FFEE82EE</value>
+  </data>
+  <data name="IdColorWheat" xml:space="preserve">
+    <value>Wheat;#FFF5DEB3</value>
+  </data>
+  <data name="IdColorWhite" xml:space="preserve">
+    <value>White;#FFFFFFFF</value>
+  </data>
+  <data name="IdColorWhiteSmoke" xml:space="preserve">
+    <value>WhiteSmoke;#FFF5F5F5</value>
+  </data>
+  <data name="IdColorYellow" xml:space="preserve">
+    <value>Yellow;#FFFFFF00</value>
+  </data>
+  <data name="IdColorYellowGreen" xml:space="preserve">
+    <value>YellowGreen;#FF9ACD32</value>
+  </data>
+</root>

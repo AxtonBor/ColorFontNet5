@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{782ECF2F-4758-4292-8594-AF401511FFB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfColorFont.Language", "WpfColorFont.Language\WpfColorFont.Language.csproj", "{5D8D80EA-FA35-4D5A-AC00-338C9891FD2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfColorFont.Logic", "WpfColorFont.Logic\WpfColorFont.Logic.csproj", "{5944C121-E7BC-46AC-A8CE-76F382098167}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfColorFont.Generico", "WpfColorFont.Generico\WpfColorFont.Generico.csproj", "{780A0574-E620-4557-8D01-ECF36EB59B05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfColorFontV2", "WpfColorFont.PresentacionV2\WpfColorFontV2.csproj", "{636B9DEB-30D3-405D-AEB4-21F060FB9C84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{782ECF2F-4758-4292-8594-AF401511FFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782ECF2F-4758-4292-8594-AF401511FFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782ECF2F-4758-4292-8594-AF401511FFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782ECF2F-4758-4292-8594-AF401511FFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8D80EA-FA35-4D5A-AC00-338C9891FD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8D80EA-FA35-4D5A-AC00-338C9891FD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8D80EA-FA35-4D5A-AC00-338C9891FD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8D80EA-FA35-4D5A-AC00-338C9891FD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5944C121-E7BC-46AC-A8CE-76F382098167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5944C121-E7BC-46AC-A8CE-76F382098167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5944C121-E7BC-46AC-A8CE-76F382098167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5944C121-E7BC-46AC-A8CE-76F382098167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780A0574-E620-4557-8D01-ECF36EB59B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780A0574-E620-4557-8D01-ECF36EB59B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780A0574-E620-4557-8D01-ECF36EB59B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780A0574-E620-4557-8D01-ECF36EB59B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636B9DEB-30D3-405D-AEB4-21F060FB9C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636B9DEB-30D3-405D-AEB4-21F060FB9C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636B9DEB-30D3-405D-AEB4-21F060FB9C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636B9DEB-30D3-405D-AEB4-21F060FB9C84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {179948EF-1537-4B0E-904F-05FDA03DF55E}
+	EndGlobalSection
+EndGlobal
