@@ -9,7 +9,7 @@
              Closed="ColorFontChooserControl_Closed"
              xmlns:prop="clr-namespace:WpfColorFont.Language;assembly=WpfColorFont.Language" Height="800" Width="750"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
-             xmlns:genericoVistas="clr-namespace:Generico.Vistas;assembly=WpfColorFont.Generico"
+             xmlns:genericoVistas="clr-namespace:WpfColorFont.Generico;assembly=WpfColorFont.Generico"
         xmlns:genericoConverters="clr-namespace:Generico.Converters"
         xmlns:vistas="clr-namespace:WpfColorFont.Logic.Vistas;assembly=WpfColorFont.Logic"
         d:DataContext="{d:DesignInstance Type=vistas:viewFont}" Title="{x:Static prop:Language.WindowTitle}" ResizeMode="NoResize">

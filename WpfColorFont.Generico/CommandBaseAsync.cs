@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Generico
+namespace WpfColorFont.Generico
 {
     public class CommandBaseAsync : ICommandAsync
     {

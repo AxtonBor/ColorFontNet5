@@ -13,8 +13,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
-using Generico;
-using Generico.Vistas;
+using WpfColorFont.Generico;
 using WpfColorFont.Logic.Modelos;
 
 namespace WpfColorFont.Logic.Vistas

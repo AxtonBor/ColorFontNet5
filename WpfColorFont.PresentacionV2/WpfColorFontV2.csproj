@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WpfColorFont.Generico\WpfColorFont.Generico.csproj" />
     <ProjectReference Include="..\WpfColorFont.Language\WpfColorFont.Language.csproj" />
     <ProjectReference Include="..\WpfColorFont.Logic\WpfColorFont.Logic.csproj" />
   </ItemGroup>

@@ -9,6 +9,7 @@
       "WpfColorFontV2/1.0.0": {
         "dependencies": {
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.31",
+          "WpfColorFont.Generico": "1.0.0",
           "WpfColorFont.Language": "1.0.0",
           "WpfColorFont.Logic": "1.0.0"
         },

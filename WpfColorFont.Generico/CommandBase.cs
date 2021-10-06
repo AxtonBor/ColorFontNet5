@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Generico
+namespace WpfColorFont.Generico
 {
     public class CommandBase : ICommand
     {

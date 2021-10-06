@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Generico
+namespace WpfColorFont.Generico
 {
     public interface ICommandAsync : ICommand
     {

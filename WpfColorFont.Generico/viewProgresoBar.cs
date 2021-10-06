@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Generico.Vistas
+namespace WpfColorFont.Generico
 {
     public class viewProgressBar : INotifyPropertyChanged
     {

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Windows;
 using WpfColorFont.Logic.Modelos;
 using WpfColorFont.Logic.Vistas;
@@ -34,11 +33,9 @@ namespace WpfColorFontV2
         public ColorFontChooser()
         {
             InitializeComponent();
-            vista = (viewFont)this.DataContext;
+            vista = (viewFont)DataContext;
             vista.FamiliaSelecionada = FamiliaSelecionada;
-            if (vista.CloseAction == null)
-                vista.CloseAction = new Action(this.Close);
-
+            vista.CloseAction ??= Close;
         }
 
         private void ColorFontChooserControl_Closed(object sender, EventArgs e)
